@@ -156,9 +156,9 @@ export interface SiteConfig {
  */
 export const siteConfig: SiteConfig = {
   site: {
-    name: "CoutourChronicles",
+    name: "CoutureChronicles",
     tagline: "Style Your Story, Live Beautiful",
-    description: "Discover the latest fashion trends, beauty secrets, and expert style advice at ContourChronicles. Your daily destination for elegance, beauty tips, and fashion inspiration.",
+    description: "Discover the latest fashion trends, beauty secrets, and expert style advice at CoutureChronicles. Your daily destination for elegance, beauty tips, and fashion inspiration.",
     url: process.env.NEXT_PUBLIC_SITE_URL || "https://couturechronicles.com",
     wordpressUrl: process.env.NEXT_PUBLIC_WORDPRESS_API_URL?.replace('/graphql', '') || "https://wp.couturechronicles.com",
     language: "en",
@@ -179,7 +179,7 @@ export const siteConfig: SiteConfig = {
       "bodyFont": "Inter"
 },
     logo: {
-      text: "COUTOURCHRONICLES",
+      text: "COUTURECHRONICLES",
       subtitle: "Style Your Story, Live Beautiful",
     },
   },
@@ -285,7 +285,7 @@ export const siteConfig: SiteConfig = {
 
   legal: {
     companyName: "Triple A Digital",
-    contactEmail: "hey@coutourchronicles.com",
+    contactEmail: "hey@couturechronicles.com",
     country: "Germany",
     jurisdiction: "Germany",
   },
@@ -319,9 +319,9 @@ export const siteConfig: SiteConfig = {
     ]
 },
   seo: {
-    titleTemplate: "%s | CoutourChronicles",
-    defaultTitle: "CoutourChronicles - Style Your Story, Live Beautiful",
-    defaultDescription: "Discover the latest fashion trends, beauty secrets, and expert style advice at ContourChronicles. Your daily destination for elegance, beauty tips, and fashion inspiration.",
+    titleTemplate: "%s | CoutureChronicles",
+    defaultTitle: "CoutureChronicles - Style Your Story, Live Beautiful",
+    defaultDescription: "Discover the latest fashion trends, beauty secrets, and expert style advice at CoutureChronicles. Your daily destination for elegance, beauty tips, and fashion inspiration.",
   },
 };
 
